@@ -18,3 +18,8 @@ document.getElementById('botao').addEventListener('click', function(){
     pegarPersonagem3();
     topFunction();
 })
+
+function topFunction() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+  }
