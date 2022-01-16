@@ -54,3 +54,20 @@ pegarPersonagem1 = () => {
         condicao1.innerHTML = traduzirCondicao(data);
     });
 }
+
+pegarPersonagem2 = () => {
+    let numeroAleatorio = gerarValorAletorio();
+    return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorio}`, {
+        method:'GET',
+        headers: {
+            Accept: 'application/json',
+            "Content-type": 'application/json'
+        }
+    }).then((response) => response.json()).then((data) => {
+        imagem2.src = data.image;
+        imagem2.alt = data.name;
+        nomeDoPersonagem2.innerHTML = data.name;
+        especie2.innerHTML = data.species;
+        condicao2.innerHTML = traduzirCondicao(data);
+    });
+}
