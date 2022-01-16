@@ -37,3 +37,45 @@ main > section button {
     padding: 9px 23px;
     text-transform:uppercase;
 }
+
+#detalhes-container1 {
+    font-weight: bold;
+}
+
+#detalhes-container1 > li {
+    align-items: baseline;
+    color: white;
+    display: flex;
+}
+
+#detalhes-container1 > li p {
+    color: gold;
+}
+
+#detalhes-container2 {
+    font-weight: bold;
+}
+
+#detalhes-container2 > li {
+    align-items: baseline;
+    color: white;
+    display: flex;
+}
+
+#detalhes-container2 > li p {
+    color: gold;
+}
+
+#detalhes-container3 {
+    font-weight: bold;
+}
+
+#detalhes-container3 > li {
+    align-items: baseline;
+    color: white;
+    display: flex;
+}
+
+#detalhes-container3 > li p {
+    color: gold;
+}
