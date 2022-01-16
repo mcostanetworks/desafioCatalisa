@@ -22,4 +22,14 @@ document.getElementById('botao').addEventListener('click', function(){
 function topFunction() {
     document.body.scrollTop = 0; 
     document.documentElement.scrollTop = 0; 
-  }
+}
+
+traduzirCondicao = (data) => {
+    if(data.status == 'Alive'){
+        return 'Está vivo!';
+    }else if(data.status == 'Dead'){
+        return 'Está morto!';
+    }else{
+        return 'Não se sabe.';
+    }
+}
