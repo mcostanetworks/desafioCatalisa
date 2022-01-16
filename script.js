@@ -33,3 +33,7 @@ traduzirCondicao = (data) => {
         return 'Não se sabe.';
     }
 }
+
+gerarValorAletorio = () => {
+    return Math.floor(Math.random() * 826);
+}
