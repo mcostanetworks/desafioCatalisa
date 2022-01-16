@@ -11,3 +11,10 @@ const nomeDoPersonagem3 = document.querySelector('#nome3');
 const especie3 = document.querySelector('#especie3');
 const condicao3 = document.querySelector('#condicao3');
 const botao = document.querySelector('#botao');
+
+document.getElementById('botao').addEventListener('click', function(){
+    pegarPersonagem1();
+    pegarPersonagem2();
+    pegarPersonagem3();
+    topFunction();
+})
